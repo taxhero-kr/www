@@ -1,10 +1,24 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <>
       <div className="container">
         <main className="content">
+          <div className="hero-section">
+            <div className="character-wrapper">
+              <Image
+                src="/images/taxhero-character.png"
+                alt="전설의 경리 캐릭터"
+                width={280}
+                height={280}
+                priority
+                className="character-image"
+              />
+            </div>
+          </div>
+
           <div className="logo-section">
-            <span className="logo-icon">📊</span>
             <h1 className="brand">전설의 경리</h1>
           </div>
 
