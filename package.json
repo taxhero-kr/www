@@ -1,0 +1,33 @@
+{
+  "name": "taxhero-www",
+  "version": "1.0.0",
+  "private": true,
+  "description": "전설의 경리 - 스마트한 세무 업무의 새로운 기준",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taxhero-kr/www.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taxhero-kr/www/issues"
+  },
+  "homepage": "https://github.com/taxhero-kr/www#readme",
+  "dependencies": {
+    "next": "^16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.7",
+    "@types/react": "^19.2.8",
+    "typescript": "^5.9.3"
+  }
+}
