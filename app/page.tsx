@@ -32,7 +32,7 @@ export default function Home() {
 
           <p className="description">
             더 쉽고, 더 빠르고, 더 정확한<br />
-            경리 업무 솔루션을 준비하고 있습니다.
+            세무 업무 솔루션을 준비하고 있습니다.
           </p>
 
           <div className="contact">
